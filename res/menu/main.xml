@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:my="http://schemas.android.com/apk/res-auto" >
+
+  
+    <item
+        android:id="@+id/item_new"
+        android:icon="@drawable/ic_action_new"       
+        android:title="new"
+        my:showAsAction="always|withText"
+        />
+    <item
+        android:id="@+id/item_paste"
+        android:icon="@drawable/ic_action_paste"      
+        android:title="paste"
+        my:showAsAction="always|withText"
+        />
+    
+      <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        my:showAsAction="never"
+        android:title="@string/action_settings"/>
+
+</menu>

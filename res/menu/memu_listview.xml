@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/item_addlable" android:title="添加到书签"></item>
+    <item android:id="@+id/item_copy" android:title="复制"></item>
+    <item android:id="@+id/item_copyPath" android:title="复制路径"></item>
+    <item android:id="@+id/item_delete" android:title="删除"></item>
+    <item android:id="@+id/item_updateName" android:title="重命名"></item>
+    <item android:id="@+id/item_info" android:title="详细信息"></item>
+    
+
+</menu>
